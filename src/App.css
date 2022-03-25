@@ -1,0 +1,114 @@
+.App {
+  margin: 1rem 2rem;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+#logo {
+  top: 0;
+  right: 0;
+}
+#logo img {
+  max-width: 15rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+#table-container {
+  text-align: center;
+  margin: 2rem;
+}
+#table-container a {
+  margin: 0 0.25rem;
+}
+.topicTile {
+  display: inline-block;
+  padding: 5px 8px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: #8fe5ff;
+}
+.topicTile:hover {
+  cursor: pointer;
+}
+.categoryTile {
+  display: inline-block;
+  padding: 5px 8px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: #c8ffab;
+}
+.categoryTile:hover {
+  cursor: pointer;
+}
+.categoryTileSelected {
+  background-color: #69f71e;
+}
+
+.subcategoryTile {
+  display: inline-block;
+  padding: 5px 8px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: #f7d99c;
+}
+.subcategoryTile:hover {
+  cursor: pointer;
+}
+.subcategoryTileSelected {
+  background-color: #ffb92a;
+}
+
+.topicDetails {
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.topicDetailShadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color: #6d6e44;
+}
+.topicDetailFrame {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  top: 15%;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+.close {
+  text-align: right;
+  font-weight: bold;
+}
+.close:hover {
+  cursor: pointer;
+}
+
+.label {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  font-weight: bold;
+  word-wrap: break-word;
+  width: 33%;
+}
+.info {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+}
